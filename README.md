@@ -2,6 +2,9 @@
 
 # Monitoring 
 
+**Last Logon Mailbox**
+- Purpose:  This script get create date and last logon of Mailboxes' Tenant and export to csv file
+
 **CSV_ResumeMultiTenant**
 - Purpose:  if you manage more than 2 tenants and have the same admin password, you can get mailbox details
 - $Pass: Same Password for Global Admin
