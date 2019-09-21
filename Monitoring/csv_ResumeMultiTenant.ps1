@@ -1,5 +1,5 @@
-# Script:   CSV_reportMultiTenant.ps1
-# Purpose:  Variation of csv_report, if you manage more than 2 tenants and have the same admin password, you can get mailbox details
+# Script:   CSV_ResumeMultiTenant.ps1
+# Purpose:  Variation of csv_resume, if you manage more than 2 tenants and have the same admin password, you can get mailbox details
 # Author:   Diego Messiah | https://github.com/diegomessiah
 
 Import-Module MSOnline ## Disconnect last connection to 365
