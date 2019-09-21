@@ -1,5 +1,5 @@
 # Script:   Mailbox Integrity & Rules
-# Purpose:  List of devices (Tablet & Mobile) connected to Tenant Mailbox
+# Purpose: Check Mailbox Rules (also hidden rules) on Tenant Mailbox
 # Author:   Diego Messiah | https://github.com/diegomessiah	
 
 # Parameters
