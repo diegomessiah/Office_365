@@ -48,8 +48,12 @@ Purpose: List of devices (PC) connected to Tenant Mailbox
 
 **Mailbox Integrity & Rules	Create Mailbox Integrity & Rules**
 
-Purpose: Check Mailbox Rules (also hidden rules) on Tenant Mailbox
+Purpose: Check Mailbox Rules (also hidden rules) and Mail Forwarding on Tenant Mailbox
 
 **MobileDevice**
 
 Purpose: List of devices (Tablet & Mobile) connected to Tenant Mailbox
+
+**Device List** 
+
+Purpose: List of devices (PC) connected to Tenant Mailbox
