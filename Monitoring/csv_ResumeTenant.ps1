@@ -1,3 +1,7 @@
+# Script:   CSV_ResumeTenant
+# Purpose:  This script get mailbox details about the 365 Tenant and export to csv File
+# Author:   Diego Messiah | https://github.com/diegomessiah
+
 $AdminName = useradmin@company.com
 $Pass = ConvertTo-SecureString 'P@$$W0rd!' -AsPlainText -Force
 $Cred = new-object -typename System.Management.Automation.PSCredential -argumentlist $AdminName, $Pass
