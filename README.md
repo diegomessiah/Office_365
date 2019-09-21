@@ -3,7 +3,8 @@
 # IT
 
 **Password Expire Notification Office 365**
-- Purpose:  This script send notification about password expire when user password due to expire
+
+Purpose:  This script send notification about password expire when user password due to expire
 
 # Monitoring 
 
