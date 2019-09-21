@@ -1,8 +1,8 @@
-#########################################
-#                                       #
-#            VARIABLES                  #
-#                                       #
-#########################################
+# Script:   HTML_ResumeTenant
+# Purpose:  This script get details about the 365 Tenant and export to HTML File
+# Author:   Diego Messiah | https://github.com/diegomessiah
+
+########################################
 
 #Company logo that will be displayed on the left, can be URL or UNC
 $CompanyLogo = "img/logo.jpg"
