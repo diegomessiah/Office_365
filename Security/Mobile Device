@@ -1,3 +1,7 @@
+# Script:   Get-Remote-LocalAdmins
+# Purpose:  List of devices (Tablet & Mobile) connected to Tenant Mailbox
+# Author:   Diego Messiah | https://github.com/diegomessiah	
+ 
  $credentials = Get-Credential -Credential UserAdmin@Company.com
  Write-Output "Getting the Exchange Online cmdlets"
  
