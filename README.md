@@ -4,7 +4,7 @@
 
 **CSV_ResumeTenant**
 
-Purpose:  This script get details mailbox about the 365 Tenant and export to csv File
+Purpose:  This script get mailbox's details about the 365 Tenant and export to csv File
 - $AdminName = Global Admin Username
 - $Pass = Global Admin Password
 
