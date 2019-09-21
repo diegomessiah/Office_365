@@ -1,3 +1,8 @@
+# Script:   Excel_ResumeTenant
+# Purpose:  This script get details about the 365 Tenant and export to Excel file
+# Author:   Diego Messiah | https://github.com/diegomessiah
+
+
 $Sku = @{
 "O365_BUSINESS_ESSENTIALS"			     = "Office 365 Business Essentials"
 "O365_BUSINESS_PREMIUM"				     = "Office 365 Business Premium"
