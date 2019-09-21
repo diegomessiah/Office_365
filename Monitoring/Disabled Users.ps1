@@ -1,3 +1,7 @@
+# Script:   Disabled Users
+# Purpose:  Get create list of disabled users (Boolean) on the mailbox Tenant and export to csv file
+# Author:   Diego Messiah | https://github.com/diegomessiah
+
 #Accept input parameters  
 Param(  
     [Parameter(Position=0, Mandatory=$false, ValueFromPipeline=$true)]  
@@ -5,11 +9,14 @@ Param(
     [string] $ReportType ,
     [Parameter(Position=1, Mandatory=$false, ValueFromPipeline=$true)]  
     [string] $OutputFile 
-)  
-  
-#Connect  Azure AD PowerShell module
-Import-Module MSOnline
-Connect-MsolService
+) 
+
+$Cred = new-object -typename System.Management.Automation.PSCredential -argumentlist $AdminName, $Pass
+Import-Module MSOnline 
+Get-PSSession | Remove-PSSession ## Disconnect last connection to 365
+Connect-MsolService -Credential $Cred
+$Session = New-PSSession -ConfigurationName Microsoft.Exchange -ConnectionUri https://outlook.office365.com/powershell-liveid/ -Credential $Cred -Authentication Basic -AllowRedirection
+Import-PSSession $Session -AllowClobber
    
 #Set default output file path if not passed.
 if ([string]::IsNullOrEmpty($OutputFile) -eq $true) 
