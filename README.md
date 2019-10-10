@@ -6,6 +6,10 @@
 
 Purpose:  This script send notification about password expire when user password due to expire
 
+**Assign License Bulk Users (not hybrit)**
+
+Purpose:  This script change old license's users to new license (bulk users not hybrit 365)
+ 
 # Monitoring 
 
 **Disabled Users**
