@@ -31,20 +31,6 @@ Purpose:  This script get mailbox's details about the 365 Tenant and export to c
 - $AdminName = Global Admin Username
 - $Pass = Global Admin Password
 
-**Excel_ResumeTenant**
-
-Purpose:  This script get detailed report about the 365 Tenant and export to Excel File
-- $AdminName = Global Admin Username
-- $Pass = Global Admin Password
-
-**HTML_ResumeTenant**
-
-Purpose:  This script get detailed report about the 365 Tenant and export to HTML File
-- ReportSavePath = Path to export the report 
-- $2FA = if Global Administrator need 2FA chango to $true
-- $AdminName = Global Admin Username
-- $Pass = Global Admin Password
-
 # Security
 **Device List** 
 
