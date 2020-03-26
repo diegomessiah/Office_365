@@ -10,8 +10,8 @@ $UsageLocation = "IL"
 
 $ServicePlans = Get-MsolAccountSku | Where {$_.SkuPartNumber -eq "ENTERPRISEPACK"}
 
-# LicenseOptions, prepare the new license #
-# To disable sublicenses -DisabledPlans for example Flow365 ###
+# LicenseOptions, prepare the new license 
+# To disable sublicenses -DisabledPlans for example Flow365 
 $LicenseOptions =  New-MsolLicenseOptions -AccountSkuId "reseller-account:ENTERPRISEPACK" -DisabledPlans FLOW_O365_P2
 
 
